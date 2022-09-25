@@ -1,0 +1,76 @@
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/triangle-mosaic.png);
+}
+
+ol,
+ul,
+li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#app {
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    padding: 20px;
+    background: rgba(255, 255, 255, .35);
+}
+
+.todoTitle {
+    font-family: 'Faustina', serif;
+    font-family: 'Merriweather', serif;
+}
+
+.addTodo input {
+    font-size: 20px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.addTodo button {
+    width: 15%;
+    font-size: 20px;
+}
+
+@media(min-width:576px) {
+    .container {
+        margin: 36px auto;
+    }
+
+    .addTodo button {
+        width: 10%;
+    }
+}
+
+.card {
+    background: rgba(255, 255, 255, .35);
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.removeBtn a {
+    padding: 0 16px;
+}
